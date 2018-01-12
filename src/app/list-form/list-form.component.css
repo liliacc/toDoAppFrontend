@@ -1,0 +1,65 @@
+.appElementWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top:50px;
+}
+.appInputElement {
+  outline: none;
+  background-color: #bce5ff;
+  border: 1px solid transparent;
+  height: 38px;
+  width: 300px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #1781C5;
+  padding: 0 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+.appInputElement:focus {
+  border: 1px solid #1781C5;
+}
+.appInputElementSaveBtn {
+  height: 38px;
+  width: 210px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #1781C5;
+  color: white;
+}
+
+.appInputElementSaveBtn:hover {
+  background-color: #359ee1;
+}
+
+.paragraph {
+  width: 72%;
+  height: 83px;
+  display: flex;
+  justify-content: Flex-start;
+  background-color: aliceblue;
+  align-items: center;
+  padding-left: 20px;
+  color: #1781C5;
+  margin: 0 auto;
+}
+
+.appInputElement::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #f6f6f6;
+}
+
+.appInputElement::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+
+.appInputElement:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+
+.appInputElement:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}

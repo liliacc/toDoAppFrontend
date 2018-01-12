@@ -1,0 +1,35 @@
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  Justify-content: flex-end;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  list-style: none;
+  background-color: #D2E9E6;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.nav-item {
+  background-color: transparent;
+  margin: 0 10px 0 10px;
+  border-radius: 6px;
+
+}
+.nav-link {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #1781C5;
+
+}
+.nav-item:hover .nav-link{
+  color: #49a4df;
+  background-color: lightcyan;
+  border-radius: 6px;
+}
+
+

@@ -1,0 +1,47 @@
+.appListItem {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  outline: none;
+  width: 300px;
+  height: 38px;
+  background-color: #e1e3e6;
+  color: #1781C5;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.editBtn, .deleteBtn, .duplicateBtn {
+  height: 38px;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  width: 70px;
+  color: gray;
+}
+.btn:hover {
+  cursor: pointer;
+  text-shadow: 1px 1px lightgray;
+  fint-weight: 200;
+}
+.editBtnColor
+{
+  background-color:#bce5ff;
+
+}
+.deleteBtnColor {
+  background-color: #f0d2d7;
+}
+.duplicateBtnColor {
+  background-color: #D2E9E6
+}
+.editBtnColor:hover {
+  background-color:#e9f7ff;
+}
+.deleteBtnColor:hover {
+  background-color: #f4e8ea;
+}
+.duplicateBtnColor:hover {
+  background-color: #e4eceb;
+}

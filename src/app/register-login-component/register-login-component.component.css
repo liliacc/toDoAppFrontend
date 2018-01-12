@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: #e1e3e6;
+  margin: 0;
+  padding: 0;
+}
+.loginWrapp  {
+
+display: flex;
+flex-direction: row;
+height: auto;
+margin: 0 auto;
+justify-content: space-around;
+padding: 130px;
+overflow: hidden;
+flex-wrap: wrap;
+max-width: 800px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex: 1 0 auto;
+}
+.formElement {
+  width: 150px;
+  height: 38px;
+  color: white;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  padding: 2px 5px;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+.formButtonBackground {
+  background-color: #220694;
+}
+.formInputElementBackground {
+  background-color: #a6c6e8;
+}
+h2 {
+  color: #606171;
+  text-shadow: 1px 1px #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
+h1 {
+  color: #606171;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 50px 0;
+}

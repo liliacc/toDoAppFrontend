@@ -1,0 +1,14 @@
+
+  <div class="menu-item-wrap" >
+
+<!--
+        <p>{{item.content}}</p>
+    -->
+    <input class="appListItem" type="text" [attr.readonly]="!editable ? true : null" [(ngModel)]="item.content">
+
+    <button class="duplicateBtn duplicateBtnColor btn" type="button" (click)="copied.emit()">Duplicate</button>
+    <button class="deleteBtn deleteBtnColor btn" type="button" (click)="deleted.emit()">Delete</button>
+    <button class="editBtn editBtnColor btn" type="button" (click)="edited()">Edit</button>
+  </div>
+
+

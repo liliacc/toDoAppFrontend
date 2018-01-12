@@ -1,0 +1,27 @@
+<div class="wrapper">
+  <h1 style="margin: 0;">toDoApp Login</h1>
+  <div class="loginWrapp">
+    <div class="row">
+      <h2>Log In</h2>
+        <input class="formElement formInputElementBackground" type="text" placeholder="Username" [(ngModel)]="loginUsername">
+        <br/>
+        <br/>
+        <input class="formElement formInputElementBackground" type="password" placeholder="Password" [(ngModel)]="loginPassword">
+        <br/>
+        <br/>
+      <div style="color: red;">{{loginError}}</div>
+      <button class="formElement formButtonBackground" (click)="loginClicked()">Login</button>
+    </div>
+    <div class="row">
+      <h2>Sign up</h2>
+        <input class="formElement formInputElementBackground" type="text" placeholder="Username" [(ngModel)]="registerUsername"/>
+        <br/>
+        <br/>
+        <input class="formElement formInputElementBackground" type="password" placeholder="Password" [(ngModel)]="registerPassword"/>
+        <br/>
+        <br/>
+        <div style="color: red;">{{registerError}}</div>
+        <button class="formElement formButtonBackground" (click)="registerClicked()">Sign up</button>
+    </div>
+  </div>
+</div>

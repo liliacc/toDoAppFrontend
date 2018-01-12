@@ -1,0 +1,10 @@
+
+<list-form (contentAdded)="addNewItemContent($event)"></list-form>
+
+<div class="list-wrap">
+  <item *ngFor="let item of itemList; let itemNumber = index" [item]="item" (deleted)="deleted(itemNumber)"
+        (copied)="copied(itemNumber)">
+
+  </item>
+
+</div>
