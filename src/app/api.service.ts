@@ -11,19 +11,19 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   sendRegister(registerRequest: RegisterRequest): Observable<any> {
-    return this.http.post('http://todo-app-backend.afla.lv:5000/api/user/register', registerRequest);
+    return this.http.post('http://todo-app-backend.afla.lv/api/user/register', registerRequest);
   }
 
   sendLogin(registerRequest: RegisterRequest): Observable<any> {
-    return this.http.post('http://todo-app-backend.afla.lv:5000/api/user/login', registerRequest);
+    return this.http.post('http://todo-app-backend.afla.lv/api/user/login', registerRequest);
   }
 
   sendGetUserTodos(getUserTodosRequest: GetUserTodosRequest): Observable<any> {
-    return this.http.post('http://todo-app-backend.afla.lv:5000/api/todo/get-all', getUserTodosRequest);
+    return this.http.post('http://todo-app-backend.afla.lv/api/todo/get-all', getUserTodosRequest);
   }
 
   sendCreateTodo(getUserTodosRequest: CreateTodoRequest): Observable<any> {
-    return this.http.post('http://todo-app-backend.afla.lv:5000/api/todo/create', getUserTodosRequest);
+    return this.http.post('http://todo-app-backend.afla.lv/api/todo/create', getUserTodosRequest);
   }
 }
 
